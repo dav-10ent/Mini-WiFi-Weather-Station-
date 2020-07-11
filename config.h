@@ -20,5 +20,5 @@
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS, SPIWIFI_SS,
                    NINA_ACK, NINA_RESETN, NINA_GPIO0, &SPIWIFI);
 #else
-AdafruitIO_WiFi io("dav10ent", "aio_lnYj41jXVfe0Zldbau1fVdBvdV09", WIFI_SSID, WIFI_PASS);
+AdafruitIO_WiFi io("username", "key", WIFI_SSID, WIFI_PASS);
 #endif
